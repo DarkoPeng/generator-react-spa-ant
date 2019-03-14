@@ -13,7 +13,7 @@ npm install -g generator-react-spa-ant
 Then generate your new project:
 
 ```bash
-yo react-spa-antd
+yo react-spa-ant
 ```
 
 ## Getting To Know Yeoman
