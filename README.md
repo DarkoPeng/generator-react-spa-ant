@@ -7,7 +7,7 @@ First, install [Yeoman](http://yeoman.io) and generator-name using [npm](https:/
 
 ```bash
 npm install -g yo
-npm install -g generator-react-spa-antd
+npm install -g generator-react-spa-ant
 ```
 
 Then generate your new project:
