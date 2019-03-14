@@ -1,4 +1,5 @@
-# generator-name [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-react-spa-ant 
+
 > a react generator project
 
 ## Installation
@@ -16,6 +17,44 @@ Then generate your new project:
 yo react-spa-ant
 ```
 
+It will generate the initial project structure and install the transitive dependencies:
+
+```
+.
+├── README.md
+├── config-overrides.js
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+├── scripts
+│   └── verifyCommitMsg.js
+├── src
+│   ├── actions
+│   │   └── count.js
+│   ├── components
+│   │   ├── counter
+│   │   └── navigation
+│   ├── index.js
+│   ├── reducers
+│   │   ├── count.js
+│   │   └── index.js
+│   ├── store
+│   │   ├── action-types.js
+│   │   └── index.js
+│   ├── styles
+│   │   ├── _reset.css
+│   │   └── index.css
+│   └── views
+│       ├── about
+│       ├── app
+│       └── topic
+├── yarn-error.log
+└── yarn.lock
+```
+
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
@@ -27,12 +66,3 @@ yo react-spa-ant
 
 MIT © 
 
-
-[npm-image]: https://badge.fury.io/js/generator-name.svg
-[npm-url]: https://npmjs.org/package/generator-name
-[travis-image]: https://travis-ci.org/DarkoPeng/generator-name.svg?branch=master
-[travis-url]: https://travis-ci.org/DarkoPeng/generator-name
-[daviddm-image]: https://david-dm.org/DarkoPeng/generator-name.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/DarkoPeng/generator-name
-[coveralls-image]: https://coveralls.io/repos/DarkoPeng/generator-name/badge.svg
-[coveralls-url]: https://coveralls.io/r/DarkoPeng/generator-name
