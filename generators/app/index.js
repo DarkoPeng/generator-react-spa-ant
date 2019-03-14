@@ -28,7 +28,7 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copyTpl(
-      this.templatePath(__dirname),
+      this.templatePath('./'),
       this.destinationPath(this.projectPath),
       {
         projectName: this.projectName,
