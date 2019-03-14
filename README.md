@@ -25,7 +25,7 @@ yo react-spa-antd
 
 ## License
 
-MIT © [Darko](Darko)
+MIT © 
 
 
 [npm-image]: https://badge.fury.io/js/generator-name.svg
