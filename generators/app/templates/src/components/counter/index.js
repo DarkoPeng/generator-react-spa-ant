@@ -6,12 +6,12 @@ import { increase, decrease, asyncIncrease } from '../../actions/count'
 const Counter = props => (
   <div>
     <h3>Redux flow Demo, Counter Component</h3>
-    <Button onClick={decrease}>Decrease</Button>
+    <Button onClick={props.decrease}>Decrease</Button>
     <span style={{ padding: '0 10px' }}>{props.number}</span>
-    <Button onClick={increase} style={{ marginRight: '10px' }}>
+    <Button onClick={props.increase} style={{ marginRight: '10px' }}>
       Increase
     </Button>
-    <Button onClick={asyncIncrease} type='primary'>
+    <Button onClick={props.asyncIncrease} type='primary'>
       AsyncIncrease
     </Button>
   </div>
