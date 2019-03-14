@@ -1,5 +1,5 @@
 # generator-name [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> a generator project
+> a react generator project
 
 ## Installation
 
@@ -7,13 +7,13 @@ First, install [Yeoman](http://yeoman.io) and generator-name using [npm](https:/
 
 ```bash
 npm install -g yo
-npm install -g generator-name
+npm install -g generator-react-spa-antd
 ```
 
 Then generate your new project:
 
 ```bash
-yo name
+yo react-spa-antd
 ```
 
 ## Getting To Know Yeoman
@@ -25,7 +25,7 @@ yo name
 
 ## License
 
-MIT © [libp](Darko)
+MIT © [Darko](Darko)
 
 
 [npm-image]: https://badge.fury.io/js/generator-name.svg
